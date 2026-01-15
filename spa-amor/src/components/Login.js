@@ -6,7 +6,7 @@ function Login({ onLogin }) {
   const [animando, setAnimando] = useState(false);
 
   function validar() {
-    if (user === 'marinsy' && pass === '30082020') {
+    if (user === 'MARINSY' && pass === '30082020') {
       setAnimando(true);
 
       setTimeout(() => {
